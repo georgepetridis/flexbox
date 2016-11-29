@@ -1,0 +1,23 @@
+{
+  "name": "flexbox",
+  "version": "1.0.0",
+  "description": "flexbox layout example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georgepetridis/flexbox.git"
+  },
+  "keywords": [
+    "flexbox",
+    "layout"
+  ],
+  "author": "George Petridis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/georgepetridis/flexbox/issues"
+  },
+  "homepage": "https://github.com/georgepetridis/flexbox#readme"
+}
