@@ -1,0 +1,51 @@
+
+@import "mixins";
+@import "colors";
+@import "variables";
+body {
+  @include reset;
+}
+.header {
+  @include bg(lightblue);
+  height: 100vh;
+}
+.header-top {
+  .container {
+    @include flex;
+    justify-content: space-between;
+    padding: 5px;
+  }
+  .group {
+    @include flex(row);
+    align-items: center;
+  }
+}
+.header-bottom {
+  .container {
+    @include flex(row);
+    align-items: center;
+    justify-content: center;
+    height: 380px;
+    padding: 5px;
+  }
+  .group {
+    @include flex(column);
+    align-items: center;
+  }
+}
+.layout-width {
+  max-width: $layout-width;
+  margin: 0 auto;
+}
+.group {
+  margin: 5px;
+  padding: 5px;
+}
+.item {
+  margin: 5px;
+  padding: 5px;
+}
+.logo {
+  width: 30px;
+  height: auto;
+}

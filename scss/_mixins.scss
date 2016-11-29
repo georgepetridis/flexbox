@@ -1,0 +1,11 @@
+@mixin bg($default: gray) {
+  background-color: $default;
+}
+@mixin reset {
+  margin: 0;
+  padding: 0;
+}
+@mixin flex($dir: row) {
+  display: flex;
+  flex-direction: $dir;
+}
