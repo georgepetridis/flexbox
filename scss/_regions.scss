@@ -1,0 +1,71 @@
+.header {
+  // @include bg(lightblue);
+  background-image: url('../images/workspace.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 100vh;
+}
+.scroll-menu {
+  position:fixed;
+  top:0px;
+  width:100%;
+  z-index: 2;
+  display: none;
+  .container {
+    @include flex;
+    justify-content: space-between;
+    padding: 5px;
+  }
+  .group {
+    @include flex(row);
+    align-items: center;
+    background-color: rgba($black, .6);
+  }
+  a {
+    color: $gray5;
+  }
+}
+.header-top {
+  position: relative;
+  z-index: 2;
+  color: $gray5;
+  height: 15vh;
+  a {
+    color: $gray5;
+  }
+  .container {
+    @include flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: rgba($black, .4);
+  }
+  .group {
+    @include flex(row);
+    align-items: center;
+  }
+}
+.header-bottom {
+  position: relative;
+  z-index: 2;
+  .container {
+    @include flex(column);
+    align-items: center;
+    justify-content: space-around;
+    height: 85vh;
+    padding: 5px;
+  }
+  .group {
+    @include flex(column);
+    align-items: center;
+  }
+}
+
+.main {
+  .container {
+    @include flex(column);
+  }
+  .group {
+    @include flex(column);
+    align-items: center;
+  }
+}

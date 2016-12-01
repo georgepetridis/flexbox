@@ -1,0 +1,12 @@
+body {
+  @include reset;
+}
+h1 {
+  @include reset;
+}
+h2 {
+  @include reset;
+}
+a {
+  text-decoration: none;
+}

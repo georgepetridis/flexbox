@@ -1,0 +1,34 @@
+.layout-width {
+  max-width: $layout-width;
+  margin: 0 auto;
+}
+.container {
+  // @include bg($gray3);
+  // border: 1px solid $green;
+  padding: $pad;
+}
+.group {
+  // @include bg($gray1);
+  margin: $mar;
+  padding: $pad;
+}
+.item {
+  // @include bg($gray2);
+  margin: $mar;
+  padding: $pad;
+}
+.logo {
+  width: 200px;
+  height: auto;
+}
+.button {
+  border: 1px solid $gray3;
+  border-radius: 5px;
+  padding: $pad*2;
+  color: $green;
+  background-color: $gray4;
+  cursor: pointer;
+  &:hover {
+    color: darken($green, 10%);
+  }
+}
